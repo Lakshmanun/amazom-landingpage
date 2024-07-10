@@ -1,0 +1,193 @@
+/*Google Fonts-Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    position: fixed;
+    background-color: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12px;
+    height: 60px;
+}
+
+/* nav.menu */
+nav .menu {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    /* background-color: aqua; */
+}
+
+    
+
+/* css for logo */
+.menu .logo a {
+    width: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+.menu .logo a span {
+    color: rgba(228, 149, 3, 0.973);
+}
+
+/* style fot logo */
+.menu .logo a:hover {
+    color: rgba(228, 149, 3, 0.973);
+
+}
+
+/* menu search bar  */
+.menu .search input {
+    height: 26px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+ .menu .home ul li  {
+    display:inline-flex;
+    margin-left: 5px;
+
+}
+
+.menu ul li a {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.menu ul li a:hover {
+    background-color:rgb(255, 190, 13);
+    color: black;
+}
+
+section {
+    background-color: #192152;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+section .submenu {
+   
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    height: 50px;
+   
+}
+
+.submenu ul li {
+    display: inline-flex;
+  margin-left: 20px;
+
+}
+
+.submenu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 2px;
+    /* border:1px solid #fff; */
+
+}
+
+.submenu ul li a:hover {
+    border: 1px solid #fff;
+}
+
+.gallary {
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    display: inline-flex;
+    padding: 40px;
+
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+
+}
+
+.image h1 {
+    font-weight: 600;
+}
+
+.image p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.gallary .center h1,p {
+    text-align: center;
+}
+
+.image .center .first {
+    margin-left: 85px;
+}
+
+.image img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.gallary .buttons button {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.buttons .add {
+    background-color: black;
+    color: white;
+}
+
+.buttons .buy {
+    background-color: black;
+    color: white;
+}
+
+.buttons .add:hover {
+    background-color: rgba(209, 189, 4, 0.959);
+    color: black;
+}
+
+.buttons .buy:hover {
+    background-color: rgba(146, 54, 0, 0.973);
+    color: black;
+}
+
